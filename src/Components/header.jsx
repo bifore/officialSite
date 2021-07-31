@@ -23,6 +23,15 @@ function Header(){
                     <li className="nav-item">
                     <a className="nav-link active text-white glass" href="#products">Products</a>
                     </li>
+                    <hr className="nav-text-color"></hr>
+                    <li className="nav-item d-lg-none">
+                        <p className="nav-text-color lead">Follow us</p>
+                        <div className="d-flex justify-content-center">
+                            <i class="bi bi-github h3 mx-2 nav-text-color"></i>
+                            <i class="bi bi-linkedin h3 mx-2 nav-text-color"></i>
+                            <i class="bi bi-facebook h3 mx-2 nav-text-color"></i>
+                        </div>
+                    </li>
                 </ul>
                 </div>
             </div>
