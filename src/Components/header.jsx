@@ -3,7 +3,7 @@
 function Header(){
     return(
 
-        <nav className="navbar navbar-expand-lg sticky-top">
+        <nav className="navbar navbar-expand-lg nav-background sticky-top">
             <div className="container-md">
                 <a className="navbar-brand nav-size nav-text-color" href="#home" id="home">bifore</a>
                 <button className="navbar-toggler text-light custom-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

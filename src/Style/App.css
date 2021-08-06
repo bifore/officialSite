@@ -11,21 +11,27 @@
     font-weight: 700;
 }
 .nav-size:hover{
-    color: #3f57ff;
+    color: white;
 }
-
 .nav-text-color{
     /* color: rgba( 81, 101, 253, 0.95 ); */
-    color: #3f57ff;
-    ;
+    color: white;
+}
+.nav-text-color:hover{
+    color: white;
 }
 
 .glass{
     /* background: rgba( 63, 87, 255, 0.95 ); */
-    background: #3f57ff;
+    /* background: #3f57ff;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4.0px );
     -webkit-backdrop-filter: blur( 4.0px );
+    border-radius: 10px; */
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
 }
 .glass:hover{
@@ -62,7 +68,7 @@
 .toggler-icon{
     width: 26px;
     height: 2.5px;
-    background-color: #3f57ff;
+    background-color: white;
     display: block;
     transition: all 0.3s;
 }
@@ -106,5 +112,57 @@
 
 /* Color of Toggler when collapsed */
 .navbar-toggler.collapsed .toggler-icon {
-    background-color: #3f57ff;
+    background-color: white;
+}
+.nav-background{
+    background: #3f57ff;
+}
+
+/* welcome */
+.welcome-background{
+    /* background: hsl(233, 100%, 62%); */
+    background: #3f57ff;
+}
+.welcome-font{
+    font-weight: 700;
+    font-size: 2rem; 
+}
+.welcome-glass{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+.welcome-glass:hover{
+    /* background: rgba(81, 101, 253, 0.95); */
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+.wel-p-font{
+    line-height: 2;
+}
+
+/* rocket animation */
+#rocket{
+    transform-box: fill-box;
+    animation: rocket 4s ease-in-out infinite alternate;
+}
+@keyframes rocket {
+        0% {
+          transform: translateY(-3%);
+          transform: translate(-6px);
+        }
+      
+        50% {
+          transform: translateY(3%);
+        }
+      
+        100% {
+          transform: translateY(-3%);
+          transform: translate(6px);
+        }
 }
