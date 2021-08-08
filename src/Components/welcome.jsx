@@ -15,7 +15,7 @@ function Welcome(){
 
     return(
         <>
-        <section className="welcome-background p-lg-5 py-5 px-4 text-center text-sm-start">
+        <section className="welcome-background p-lg-5 py-5 px-4 text-center text-sm-start" id="home">
             <div className="container">
                 <div className="d-sm-flex text-white align-items-center justify-content-between">
                     <div className="">
@@ -28,7 +28,7 @@ function Welcome(){
                     <div className="">
                         <img src={rocket} className="img-fluid" id="rocket" alt="rocket"/>
                     </div>
-                    <div>
+                    <div className="">
                         <motion.div variants={fadeRight} initial='hidden' animate='visible' transition={{duration:1}} class="row d-none d-md-block">
                             <a href="#git" class="btn"><i class="bi bi-github h3 text-white"></i></a>
                         </motion.div>
@@ -45,7 +45,7 @@ function Welcome(){
                 </div>
             </div>
         </section>
-        <section>
+        <section className="m-0 p-0 edit-svg">
             <img src={wave} alt="svg"/>
         </section>
         </>

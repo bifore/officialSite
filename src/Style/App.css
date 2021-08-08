@@ -166,3 +166,29 @@
           transform: translate(6px);
         }
 }
+
+/* svg waves */
+.edit-svg{
+    height: 70px;
+}
+
+/* about */
+.about-text{
+    font-weight: 700;
+    font-size: 1.8rem; 
+    color:#1f2558;
+}
+.welcome-p{
+    /* color: rgb(77, 76, 76); */
+    color: #1f2558;
+}
+@media screen and (min-width: 768px) {
+    .about{
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 426px) {
+    .welcome-p{
+        font-size: medium;
+    }
+}
