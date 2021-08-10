@@ -218,3 +218,22 @@
         font-size: medium;
     }
 }
+
+/* contact */
+.contact-font{
+    color: #3f57ff;
+    font-weight: 500;
+}
+.link{
+    text-decoration: none;
+    line-height: 2;
+    color: #3f57ff;
+}
+.contact{
+    line-height: 1;
+    color: #3f57ff;
+    text-decoration: none;
+}
+.contact-btn{
+    border-radius: 25px;
+}

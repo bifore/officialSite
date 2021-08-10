@@ -18,7 +18,7 @@ function Header(){
                     <a className="nav-link active nav-text-color" href="#about">Who we are ?</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link active nav-text-color" href="#contact">Locate us</a>
+                    <a className="nav-link active nav-text-color" href="#contact">Contact us</a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link active text-white glass" href="#product">Product</a>
