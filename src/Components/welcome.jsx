@@ -28,7 +28,7 @@ function Welcome(){
                     <div className="">
                         <img src={rocket} className="img-fluid" id="rocket" alt="rocket"/>
                     </div>
-                    <div className="">
+                    <div className="social-link">
                         <motion.div variants={fadeRight} initial='hidden' animate='visible' transition={{duration:1}} class="row d-none d-md-block">
                             <a href="#git" class="btn"><i class="bi bi-github h3 text-white"></i></a>
                         </motion.div>

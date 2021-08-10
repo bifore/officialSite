@@ -15,13 +15,13 @@ function Header(){
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto text-center gap-3">
                     <li className="nav-item">
-                    <a className="nav-link active nav-text-color" href="#home">Home</a>
-                    </li>
-                    <li className="nav-item">
                     <a className="nav-link active nav-text-color" href="#about">Who we are ?</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link active text-white glass" href="#products">Products</a>
+                    <a className="nav-link active nav-text-color" href="#contact">Locate us</a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link active text-white glass" href="#product">Product</a>
                     </li>
                     <hr className="nav-text-color"></hr>
                     <li className="nav-item d-lg-none">

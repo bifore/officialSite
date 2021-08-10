@@ -145,6 +145,11 @@
 .wel-p-font{
     line-height: 2;
 }
+@media screen and (max-width:991px){
+    .social-link{
+        display: none;
+    }
+}
 
 /* rocket animation */
 #rocket{
@@ -189,6 +194,27 @@
 }
 @media screen and (max-width: 426px) {
     .welcome-p{
+        font-size: medium;
+    }
+}
+
+/* product */
+.product-text{
+    font-weight: 700;
+    font-size: 1.8rem; 
+    color:#f6f7fa;
+}
+.product-p{
+    /* color: rgb(77, 76, 76); */
+    color: #f6f7fa;
+}
+@media screen and (min-width: 768px) {
+    .product{
+        height: 90vh;
+    }
+}
+@media screen and (max-width: 426px) {
+    .product-p{
         font-size: medium;
     }
 }
