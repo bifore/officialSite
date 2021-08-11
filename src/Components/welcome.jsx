@@ -23,7 +23,16 @@ function Welcome(){
                         <motion.p variants={fadeLeft} initial='hidden' animate='visible' transition={{duration:1}} className="lead mb-4 wel-p-font">
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus in consequuntur.
                         </motion.p>
-                        <motion.button whileHover={{scale:1.05}} whileTap={{scale:0.95}} initial={{opacity:0}} animate={{opacity:1, transition:{duration:1.5}}} className="btn text-white welcome-glass">Get a Proposal</motion.button>
+                        <motion.button 
+                            whileHover={{scale:1.05}} 
+                            whileTap={{scale:0.95}} 
+                            initial={{opacity:0}} 
+                            animate={{opacity:1, transition:{duration:1.5}}} 
+                            className="btn text-white welcome-glass"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                            >
+                                Get a Proposal
+                        </motion.button>
                     </div>
                     <div className="">
                         <img src={rocket} className="img-fluid" id="rocket" alt="rocket"/>
@@ -48,6 +57,45 @@ function Welcome(){
         <section className="m-0 p-0 edit-svg">
             <img src={wave} alt="svg"/>
         </section>
+
+        {/* Modal */}
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Get a Proposal</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="get">
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Organization Name</label>
+                        <input type="text" class="form-control" id="recipient-name" required></input>
+                    </div>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Email</label>
+                        <input type="email" class="form-control" id="recipient-name" required/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Subject</label>
+                        <input type="text" class="form-control" id="recipient-name" required/>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message</label>
+                        <textarea class="form-control" id="message-text" rows="3" required></textarea>
+                    </div>
+
+                    <div class="ms-auto">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary m-3">Submit</button>
+                    </div>
+                </form>
+            </div>
+           
+            </div>
+        </div>
+
+        </div>
         </>
     )
 }

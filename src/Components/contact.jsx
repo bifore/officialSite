@@ -8,7 +8,7 @@ function Contact(){
                     <h3 className="mb-4 contact-font">
                         bifore
                     </h3>
-                    <button className="btn btn-primary mb-4 contact-btn">Get a Proposal</button>
+                    <button className="btn btn-primary mb-4 contact-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Get a Proposal</button>
                     <div className="d-flex">
                         <a className="cursor" href="#git"><i class="bi bi-github h4 mx-2 "></i></a>
                         <a className="cursor" href="#git"><i class="bi bi-linkedin h4 mx-2 "></i></a>
