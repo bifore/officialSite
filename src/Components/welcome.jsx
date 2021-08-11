@@ -29,16 +29,16 @@ function Welcome(){
                         <img src={rocket} className="img-fluid" id="rocket" alt="rocket"/>
                     </div>
                     <div className="social-link">
-                        <motion.div variants={fadeRight} initial='hidden' animate='visible' transition={{duration:1}} class="row d-none d-md-block">
+                        <motion.div variants={fadeRight} initial='hidden' animate='visible' transition={{duration:0.5}} class="row d-none d-md-block">
                             <a href="#git" class="btn"><i class="bi bi-github h3 text-white"></i></a>
                         </motion.div>
-                        <motion.div variants={fadeRight} initial='hidden' animate='visible' transition={{duration:1.3}} class="row d-none d-md-block">
+                        <motion.div variants={fadeRight} initial='hidden' animate='visible' transition={{duration:0.7}} class="row d-none d-md-block">
                             <a href="#face" class="btn"><i class="bi bi-facebook h3 text-white"></i></a>
                         </motion.div>
-                        <motion.div variants={fadeRight} initial='hidden' animate='visible' transition={{duration:1.6}} class="row d-none d-md-block">
+                        <motion.div variants={fadeRight} initial='hidden' animate='visible' transition={{duration:0.9}} class="row d-none d-md-block">
                             <a href="#twit" class="btn"><i class="bi bi-twitter h3 text-white"></i></a>
                         </motion.div>
-                        <motion.div variants={fadeRight} initial='hidden' animate='visible' transition={{duration:1.9}} class="row d-none d-md-block">
+                        <motion.div variants={fadeRight} initial='hidden' animate='visible' transition={{duration:1.1}} class="row d-none d-md-block">
                             <a href="#google" class="btn"><i class="bi bi-linkedin h3 text-white"></i></a>
                         </motion.div>
                     </div>

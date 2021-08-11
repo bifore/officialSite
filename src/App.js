@@ -4,6 +4,7 @@ import Welcome from './Components/welcome';
 import About from './Components/about';
 import Product from './Components/product';
 import Contact from './Components/contact';
+import Footer from './Components/footer';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <About/>
             <Product/>
             <Contact/>
+            <Footer/>
         </div>
     );
 }

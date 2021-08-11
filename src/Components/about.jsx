@@ -21,6 +21,7 @@ function About(){
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis in a voluptatum harum? Quia odit doloremque accusantium sit accusamus.
                         </p>
                     </div>
+    
                 </div>
             </div>
         </section>
