@@ -1,15 +1,20 @@
-
 import team from "../Assets/images/team.svg"
+import Aos from 'aos'
+import "aos/dist/aos.css"
+import { useEffect } from "react"
 
 function About(){
+    useEffect(() => {
+        Aos.init({ duration : 1000 })
+    }, [])
     return(
         <section className="p-lg-1 px-4 text-start" id="about">
             <div className="container">
                 <div className="row about flex-column-reverse flex-lg-row align-items-center justify-content-between">
                     <div className="col-md-6 mb-lg-0 mb-4">
-                        <img src={team} className="img-fluid" alt="about" />
+                        <img src={team} className="img-fluid about-img" alt="about" />
                     </div>
-                    <div className="col-md-8 col-lg-6">
+                    <div className="col-md-8 col-lg-6" data-aos="fade-up">
                         <h2 className="mb-4 about-text">About bifore<span class="heart ms-2">❤️</span></h2>
                         <p className="lead welcome-p">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit totam cum, officiis ipsam modi voluptatem!

@@ -183,6 +183,9 @@
     font-size: 1.8rem; 
     color:#1f2558;
 }
+.about-img{
+   width: 90%;
+}
 .welcome-p{
     /* color: rgb(77, 76, 76); */
     color: #1f2558;
@@ -236,9 +239,33 @@
 }
 .contact-btn{
     border-radius: 10px;
+    color: white;
+    background: #3f57ff;
+}
+.contact-btn:hover{
+    color: white;
+    background: #374eff;
+}
+.contact-icon{
+    color: #3f57ff;
 }
 
 /* footer */
 .footer-bg{
     background: #3f57ff;
+}
+
+/* model form */
+.form-border{
+    border-radius: 15px;
+}
+.form-bg{
+    background: #d0dfe8;
+}
+.form-btn{
+    border-radius: 10px;
+}
+.modal-title{
+    color: rgb(99, 97, 97);
+    font-weight: 600;
 }
