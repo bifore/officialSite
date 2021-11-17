@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import { useEffect } from "react"
+// import biforeMockup from "../Assets/images/Group 1.png"
 
 function Product(){
     useEffect(() => {
@@ -30,8 +31,9 @@ function Product(){
                             Read More <i className="bi bi-chevron-right"></i>
                         </motion.button>
                     </div>
-                    <div className="col-md mb-lg-0 mb-4">
-                        <img src={product} className="img-fluid" alt="about" />
+                    <div className="col-md mb-lg-0 mb-4 text-center">
+                        <img src={product} className="img-fluid" alt="about" /> 
+                        {/* <img src={biforeMockup} className="product-img" alt="about" />  */}
                     </div>
                 </div>
             </div>

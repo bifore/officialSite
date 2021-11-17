@@ -232,9 +232,17 @@
     line-height: 2;
     color: #3f57ff;
 }
+.link:hover{
+    text-decoration: none;
+    color: #374eff;
+}
 .contact{
     line-height: 1;
     color: #3f57ff;
+    text-decoration: none;
+}
+.contact:hover{
+    color: #374eff;
     text-decoration: none;
 }
 .contact-btn{
@@ -260,7 +268,8 @@
     border-radius: 15px;
 }
 .form-bg{
-    background: #d0dfe8;
+    /* background: #d0dfe8; */
+    background: rgb(216, 213, 213);
 }
 .form-btn{
     border-radius: 10px;

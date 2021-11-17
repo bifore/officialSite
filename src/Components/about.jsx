@@ -1,4 +1,4 @@
-import team from "../Assets/images/team.svg"
+import team from "../Assets/images/team1.svg"
 import Aos from 'aos'
 import "aos/dist/aos.css"
 import { useEffect } from "react"

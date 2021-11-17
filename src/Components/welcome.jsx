@@ -1,5 +1,5 @@
-import rocket from "../Assets/images/paper_rocket 1.png"
-import wave from "../Assets/images/wave3.svg"
+import rocket from "../Assets/images/paper_rocket1.png"
+import wave from "../Assets/images/wave.svg"
 import { motion } from "framer-motion"
 import ModelForm from "./form"
 
