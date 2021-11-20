@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/officialSite/static/css/main.e81319b4.chunk.css",
+    "main.css": "/officialSite/static/css/main.30100daa.chunk.css",
     "main.js": "/officialSite/static/js/main.45bb5fce.chunk.js",
     "main.js.map": "/officialSite/static/js/main.45bb5fce.chunk.js.map",
     "runtime-main.js": "/officialSite/static/js/runtime-main.4111ddb4.js",
@@ -10,7 +10,7 @@
     "static/js/2.e684e4cc.chunk.js.map": "/officialSite/static/js/2.e684e4cc.chunk.js.map",
     "index.html": "/officialSite/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/officialSite/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.e81319b4.chunk.css.map": "/officialSite/static/css/main.e81319b4.chunk.css.map",
+    "static/css/main.30100daa.chunk.css.map": "/officialSite/static/css/main.30100daa.chunk.css.map",
     "static/js/2.e684e4cc.chunk.js.LICENSE.txt": "/officialSite/static/js/2.e684e4cc.chunk.js.LICENSE.txt",
     "static/media/bifore.e7a91597.svg": "/officialSite/static/media/bifore.e7a91597.svg",
     "static/media/paper_rocket1.f6fde093.png": "/officialSite/static/media/paper_rocket1.f6fde093.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.4111ddb4.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.e684e4cc.chunk.js",
-    "static/css/main.e81319b4.chunk.css",
+    "static/css/main.30100daa.chunk.css",
     "static/js/main.45bb5fce.chunk.js"
   ]
 }
