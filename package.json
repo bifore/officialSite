@@ -1,5 +1,6 @@
 {
   "name": "bifore",
+  "homepage": "https://bifore.github.io/officialSite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
